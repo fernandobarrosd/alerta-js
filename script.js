@@ -1,12 +1,9 @@
 const alertContainer = document.querySelector(".alerta-container");
 const btnClose = alertContainer.querySelector(".alert-close");
-const num = 20;
 
 
 window.addEventListener("load", () => {
-    if (num == 20) {
-        executeError();   
-    }
+    executeError();
 })
 
 function executeError() {
@@ -18,4 +15,3 @@ function executeError() {
 btnClose.addEventListener("click", () => {
     alertContainer.style.transform = "translateX(250px)";
 })
-
