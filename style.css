@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    gap: 20px;
+    
+}
+
+.alerta-container {
+    background-color: darkgray;
+    width: 200px;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    transform: translateX(250px);
+    position: absolute;
+    right: 0;
+}
+
+.alerta-container-info {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.alerta-text {
+    margin-left: 30px;
+}
+
+.alert-close {
+    position: absolute;
+    left: 180px;
+    top: 0;
+    cursor: pointer;
+}
+
+
+
