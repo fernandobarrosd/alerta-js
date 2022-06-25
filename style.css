@@ -20,6 +20,11 @@ body {
     transform: translateX(250px);
     position: absolute;
     right: 0;
+    animation-name: aparecer;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 .alerta-container-info {
@@ -41,4 +46,8 @@ body {
 }
 
 
-
+@keyframes aparecer {
+    to {
+        transform: translateX(0);
+    }
+}
